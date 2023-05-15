@@ -54,11 +54,11 @@ typedef struct RGB
 /* Exported constants --------------------------------------------------------*/
 #define IMAGE_HEIGHT 240
 #define IMAGE_WIDTH  320
-#define IMAGE_QUALITY 90
+#define IMAGE_QUALITY 90  /* 90 */
 #define LCD_FRAME_BUFFER 0xC0000000
 
 #define USE_DMA2D
-#define SWAP_RB
+//#define SWAP_RB
 
 /* USER CODE END EC */
 
